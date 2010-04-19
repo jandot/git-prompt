@@ -14,6 +14,8 @@ STDERR.puts "DEBUG: " + branch_name
     colour = red
   elsif status_lines.grep(/^# Changes to be committed/).length > 0
     colour = yellow
+  elsif status_lines.grep(/^# Untracked files/).length > 0
+    colour = blue
   end
   unless current_branch.empty?
     print "#{colour}(#{branch_name})#{reset}"
