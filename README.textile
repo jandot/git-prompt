@@ -1,0 +1,4 @@
+== Why? ==
+
+I tend to work on different projects simultaneously and always forget (a) what git branch I'm in for each project, and (b) if changes have to be committed. The code snippets in this repository add the current git branch name to the bash prompt; in green if the directory is clean, in red if it's dirty. A screenshot: http://twitpic.com/1gubtf
+
